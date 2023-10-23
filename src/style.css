@@ -1,0 +1,13 @@
+button.square {
+    width: 35px;
+    height: 35px;
+}
+
+.board-row {
+    display: flex;
+}
+
+.square.winning {
+    background-color: rgb(9, 255, 0); /* Highlight with yellow background color */
+    font-weight: bold; /* Add bold text for emphasis */
+}
